@@ -1,0 +1,35 @@
+                    /* ====>Resets<====  */
+
+*{
+    box-sizing: border-box;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+a{text-decoration: none;}
+
+ul{list-style: none;}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: var(--bg-black);
+    color: var(--txt-clr);
+    display: grid;
+    place-items: center;
+    padding-top: 3.3rem;
+}
+
+:root{
+
+    /* ===> colors <=== */
+
+    --bg-black:hsl(208, 41%, 8%);
+
+    --txt-clr:hsla(208, 9%, 67%, 1);
+
+}
