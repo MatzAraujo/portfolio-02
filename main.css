@@ -22,6 +22,7 @@ body{
     display: grid;
     place-items: center;
     padding-top: 3.3rem;
+    transition:background .3s;
 }
 
 :root{
@@ -36,10 +37,14 @@ body{
 
 :root:has(#light:checked){
     --bg-clr:hsl(200, 7%, 92%);
+    
+}
+
+:root:has(#black:checked){
 }
 
 
-fieldset{
+/* fieldset{
     border: 0;
 }
 
@@ -52,11 +57,14 @@ fieldset{
     background: hsla(208, 25%, 12%, 1);
 }
 
+input{
+    cursor: pointer;
+}
+
 input[type="radio"]#black{
     appearance: none;
     height: 3.4rem;
     width: 3.4rem;
     background: url(./asssets/images/sun-regular.svg);
 }
-
-
+ */
