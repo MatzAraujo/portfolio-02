@@ -2,6 +2,6 @@
 
  1. Config our FontAwesome 
 
- 2. Config DarkMode
-
  3. Make a mobile version
+
+ . Set the currect font-size in items 

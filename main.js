@@ -21,3 +21,11 @@ colorThemes.forEach(themeOption => {
 
 document.onload = retrieveTheme()
 
+const toggle = document.querySelector('fieldset')
+const colorToggle = document.querySelectorAll('input')
+
+for(const element of colorToggle){
+    element.addEventListener('click', () =>{
+        toggle.classList.toggle('show')
+    })
+}
