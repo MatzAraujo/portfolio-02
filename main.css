@@ -38,6 +38,8 @@ input[type="radio"]#black{
  
  /* ====>Resets<====  */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
+
 *{
     box-sizing: border-box;
     font: inherit;
@@ -60,7 +62,8 @@ body{
     background: var(--bg-clr);
     color: var(--txt-clr);
     display: grid;
-    font-size: var(--ff-body);
+    font-family: var(--ff-body);
+    font-size: var(--fs-body);
     place-items: center;
     padding-top: 3.3rem;
     transition:background .3s;
@@ -76,11 +79,14 @@ body{
 
     /* ===> layout <=== */
 
-    --ff-body:2.2rem;
+    --ff-body:'Poppins',sans-serif;
+    --fs-body:2.2rem;
 
     --radius:1rem;
 
 }
+
+            /* ===>base of project<=== */
 
 section{
     margin-top: 6.5rem;
@@ -94,6 +100,13 @@ section{
    display: grid;
    grid-auto-columns: 1fr;
    grid-auto-flow: column;
+}
+
+            /* ===>Layout<=== */
+
+
+.social-medias li {
+    margin-right: 2.6rem;
 }
 
 .infos{
@@ -125,3 +138,4 @@ section{
     color: hsla(0, 0%, 24%, 1) ;
     text-align: center;
 } 
+
